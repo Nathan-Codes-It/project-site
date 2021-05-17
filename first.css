@@ -1,11 +1,25 @@
 .topNav{
-    background: url(850885_black-marble-related-keywords-suggestions-black-marble-long_2048x2048_h.jpg);
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(82,82,82,1) 100%);
 }
 .topNav a{
     flex-direction: row;
     color: white;
-    background-color: gray;
+   
 }
 .topNav a:hover{
     background-color: ;
+}
+body{
+    background: rgb(82,82,82);
+    background: linear-gradient(89deg, rgba(82,82,82,1) 0%, rgba(0,0,0,1) 100%);
+}
+main{
+    color: #39FF14;
+    display: flexbox;
+    flex-direction: column;
+    margin-top: 10%;
+}
+h1{
+    color: white;
 }

@@ -1,0 +1,65 @@
+.topNav{
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(82,82,82,1) 100%);
+}
+.topNav a{
+    flex-direction: row;
+    color: white;
+   
+}
+.topNav a:hover{
+    background-color: ;
+}
+
+
+
+
+body{
+    background: rgb(82,82,82);
+background: linear-gradient(90deg, rgba(82,82,82,1) 0%, rgba(0,0,0,1) 100%);
+  }
+  
+  .bg-red{
+      text-align: center;
+     
+    display: inline-grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1.25, 1fr);
+    border: 0.01px solid black;
+    margin: 1px 1px 1px 1px;
+  }
+  h1{
+    display: flexbox;
+    flex-direction: column;
+    color: #FFFFFF;
+  
+  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+  color: #FFFFFF;
+  
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+  }
+  .button{
+    border:2px currentColor dashed;
+    display: flexbox;
+  
+    text-decoration: none;
+    flex-direction: column;
+    color: #FFFFFF;
+  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+  color: #FFFFFF;
+  background:none;
+  
+  }
+  .reset{
+    display: flexbox;
+    border:2px currentColor dashed;
+    flex-direction: column;
+    color: brown;
+    color: #FFFFFF;
+  background: none;
+  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+  color: #FFFFFF;
+  
+  }
