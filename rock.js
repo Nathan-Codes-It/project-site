@@ -13,32 +13,36 @@ function computerPlay(){
  }
  function gamePlay(){
      //let score = 0;
- 
-     let playerChoice = prompt("pick between rock, paper, and scissors");
+    let userChoice = document.getElementsByClassName("btnForGame");
+      userChoice.addEventListener("click", () => {
+         userChoice=prompt("Rock, Paper, Or Scissors?");
+      });
      let computerChoice = computerPlay;
      console.log(singleRound(playerChoice, computerChoice()));
     // score += (singleRound(playerChoice, computerChoice()))
+   
+    
  
- 
- 
-      playerChoice = prompt("pick between rock, paper, and scissors");
+    userChoice = prompt("Rock, Paper, Scissors?"); 
       computerChoice = computerPlay;
      console.log(singleRound(playerChoice, computerChoice()));
     // score += (singleRound(playerChoice, computerChoice()))
  
-      playerChoice = prompt("pick between rock, paper, and scissors");
+    userChoice = prompt("Rock, Paper, Scissors?");
      computerChoice = computerPlay;
      console.log(singleRound(playerChoice, computerChoice()));
      //score += (singleRound(playerChoice, computerChoice()))
  
  
-      playerChoice = prompt("pick between rock, paper, and scissors");
+     userChoice = prompt("Rock, Paper, Scissors?");
       computerChoice = computerPlay;
      console.log(singleRound(playerChoice, computerChoice()));
      //score += (singleRound(playerChoice, computerChoice()))
  
  
-      playerChoice = prompt("pick between rock, paper, and scissors");
+     userChoice = prompt("Rock, Paper, Scissors?");
+      
+    
       computerChoice = computerPlay;
      console.log(singleRound(playerChoice, computerChoice()));
      //score += (singleRound(playerChoice, computerChoice()))
